@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Un amigo bot</title>
+</head>
+<body>
+			<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="list-group">
+					  <button type="button" class="list-group-item list-group-item-action active">
+					    Cras justo odio
+					  </button>
+					  <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+					  <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
+					  <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+					  <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card"> 
+						<center><img src="img/unamigobot.png" class="card-img-top"></center>
+						<div class="card-body">
+							<h3>Hola soy tu Amigo bot</h3>
+						</div>
+						
+					</div>
+
+				</div>
+				<div class="col">
+					 <div class="resume-wrapper" style="background-color: white">
+                        <div class="row">
+                            <div class="col">
+                                <h1>Resume</h1>
+                                <div class="d-flex justify-content-around">
+                                    <div class="btn btn-primary">Download my resume</div>
+                                <div class="btn btn-primary">
+                                    Get in touch
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="section-header education">Education</div>
+                                <div class="content-wrapper">
+                                    <h2 class="content-title">Graphic Design</h2>
+                                    <h3 class="content-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                                    <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+				</div>
+			</div>
+			<br>
+			<div class="container">
+			 <div class="col" style="background:white">
+                    <!--div class="card">
+                        <img src="img/main-pic.jpg" class="card-img-top" alt="Profile image">
+                        <div class="card-body">
+                            <h3 class="card-title">Hola!  <span>Soy Israel!</span></h3>
+                            <h4>Front End Developer</h4>
+                            <hr>
+                            <p class="card-text text-center" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary btn-block">Visita mi sitio</a>
+                            <div class="social-network-wrapper">
+                                <a href="https://www.instagram.com" target="_blank"><div class="social-icon instagram"></div></a>
+                                <div class="social-icon facebook"></div>
+                                <div class="social-icon twitter"></div>
+                                <div class="social-icon linkedin"></div>
+                                <div class="social-icon youtube"></div>
+                            </div>
+                        </div>
+                    </div-->
+              
+                    <form id="add-car-form" action="">
+                        <div class="form-group">
+                            <label for="">Marca</label>
+                            <input id="car-company" type="text" class="form-control" value="Dodge">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Modelo</label>
+                            <input id="car-model" type="text" class="form-control" value="Viper">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Color</label>
+                            <input id="car-color" type="text" class="form-control" value="Red">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Potencia</label>
+                            <input id="car-horse-power" type="text" class="form-control" value="400">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Cilindros</label>
+                            <input id="car-cilinders" type="text" class="form-control" value="8">
+                        </div>
+                        <div id="submit-button" class="btn btn-success mb-2">Agregar auto</div>
+                    </form>
+               
+                </div>
+                <br>
+                 <div class="row">
+                            <div class="col" style="background-color: white">
+                                <!--div class="section-header education">Education</div>
+                                <div class="content-wrapper">
+                                    <h2 class="content-title">Graphic Design</h2>
+                                    <h3 class="content-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                                    <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div-->
+                                <table id="cars-list" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Marca</th>
+                                            <th>Modelo</th>
+                                            <th>Color</th>
+                                            <th>Potencia</th>
+                                            <th>Cilindros</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Mazda</td>
+                                            <td>Mazda 6</td>
+                                            <td>Red</td>
+                                            <td>250 hp</td>
+                                            <td>4</td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                            </div>
+                        </div>
+
+                </div>
+
+
+                
+
+
+			<!--
+			<div class="row">
+				<div class="col-sm-10">10 columnas</div>
+				<div class="col-sm-2">2 columnas</div>
+			</div>
+			<div class="row">
+				<div class="col">simetrico</div>
+				<div class="col">simetrico</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 col-md-7">3 columnas, 7 en tablet</div>
+				<div class="col-sm-5">5 columnas</div>
+				<div class="col-sm-4">4 columnas</div>
+			</div>
+		-->
+
+		<!--
+			<div class="row">
+				<div class="col-3 col-sm-2 col-md-1 col-lg-3">some content</div>
+				<div class="col-3 col-sm-2 col-md-5 col-lg-4">some other content</div>
+				<div class="col-3 col-sm-4 col-md-2 col-lg-2">etc</div>
+				<div class="col-3 col-sm-4 col-md-4 col-lg-3">columnas</div>
+			</div>
+
+			<div class="row">
+				<div class="side-navbar col-md-2">
+					<div class="btn btn-primary">Botón 1</div>
+					<div class="btn btn-primary">Botón 2</div>
+					<div class="btn btn-primary">Botón 3</div>
+					<div class="btn btn-primary">Botón 4</div>
+					<div class="btn btn-primary">Botón 5</div>
+				</div>
+				<div class="main-content col-md-10">
+					<div class="card">
+						<div class="card-body">
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae porro omnis, ex fugit cupiditate nesciunt.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		-->
+
+		<!--
+		<div class="container">
+			<div class="row">
+				<div class="col">col 1</div>
+				<div class="col">col 2</div>
+				<div class="col">col 3</div>
+				<div class="col">col 4</div>
+				<div class="col">col 5</div>
+				<div class="col">col 6</div>
+				<div class="col">col 7</div>
+				<div class="col">col 8</div>
+				<div class="col">col 9</div>
+				<div class="col">col 10</div>
+				<div class="col">col 11</div>
+				<div class="col">col 12</div>
+			</div>
+		</div>
+
+		
+		<h1><marquee>¡Hola Mundo! <b>Bienvenidos</b> </marquee>
+		</h1>
+		<h2 class="some-class">¿Y el anillo pa cuando?</h2>
+		<h3>Hoy diste el primer paso</h3>
+		<ul>
+			<li>Ser constantes</li>
+			<li class="some-class list-item">Nunca rendirse</li>
+			<li>Vender amor y caricias</li>
+			<li>Aprender siempre de todo</li>
+		</ul>
+
+		<ol>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+		</ol>
+
+		<ol>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+		</ol>
+
+			<table>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+				<tr>
+					<td>some-content</td>
+					<td>some-content</td>
+					<td>some-content</td>
+				</tr>
+			</table>
+			<br>
+		<br>
+		<br>
+		<table>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+			<tr>
+				<td>some-content</td>
+				<td>some-content</td>
+				<td>some-content</td>
+			</tr>
+		</table>
+		<p class="some-other-class">Lorem ipsum dolor sit amet.</p>
+		<p class="some-other-class">Lorem ipsum dolor sit amet.</p>
+		<p class="some-other-class">Lorem ipsum dolor sit amet.</p>
+		<p id="some-other-id" class="some-other-class">Lorem ipsum dolor sit amet.</p>
+		<p class="some-other-class">Lorem ipsum dolor sit amet.</p>
+		<p class="some-other-class">Lorem ipsum dolor sit amet.</p>
+		<p class="some-other-class">Lorem ipsum dolor sit amet.</p>
+
+
+
+		<h1 id="some-id" class="some-class">Este es el color naranja</h1>
+		<button onclick="pulsa()">Estoy listo!</button>
+		-->
+		
+		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!--<script type="text/javascript" src="js/alert.js"></script>-->
+
+</body>
+</html>

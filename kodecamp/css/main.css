@@ -1,0 +1,239 @@
+body{
+	background:url("../img/cropped-tecnologia.jpg");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+
+}
+
+.card img{
+	width: 75%;
+	margin: 50px auto 20px auto
+	border:10px black;
+	border-radius:50%;
+	
+
+
+}
+
+
+
+.card{
+	background-color: #6cf3ba;
+}
+
+
+/*
+.container{
+  background: peru;
+  padding: 5px;
+}
+
+.row{
+  background: lime;
+  padding: 5px;
+}
+
+.col{
+  background: skyblue;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+
+
+.row div{
+  background: skyblue;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+h1{
+
+	font-family: arial;
+	text-align: center;
+	font-size: 30px;
+	color:#333;
+}
+
+
+h1#some-id{
+
+	color:orange;
+	font-size: 50px;
+}
+
+h1.some-class{
+	text-decoration: underline;
+}
+
+.some-class{
+	text-decoration: underline;
+}
+
+
+.list-item{
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	color: green;
+}
+
+
+.some-class.list-item{
+	color: pink;
+}
+
+
+ol li{
+	font-family: arial;
+	font-size: 26px;
+	color: violet;
+}
+
+table tr:nth-of-type(odd){
+	background: peru;
+}
+
+table tr:nth-of-type(even){
+	background: navy;
+	color: white;
+}
+
+table tr td:nth-of-type(2){
+	text-decoration: underline;
+}
+
+
+table tr:nth-of-type(3n+5){
+	background: slategray;
+}
+
+table:nth-of-type(2){
+	border-collapse: collapse;
+}
+
+table:first-of-type, table:last-of-type{
+	border: 1px solid green;
+}
+
+
+table:nth-of-type(2) tr:nth-of-type(even){
+	background: skyblue;
+}
+
+p.some-other-class{
+	font-family: arial;
+	color: peru;
+}
+
+p#some-other-id{
+	color: purple;
+}
+
+p.some-other-class{
+	font-family: arial;
+	color: gray;
+}
+
+p{
+	color: navy;
+}*/
+
+/*
+body{
+  background: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-group-item{
+  margin-bottom: 5px;
+  background: rgba(10, 206, 206, .7);
+  color: white;
+  border: none;
+}
+
+.list-group-item:first-of-type,
+.list-group-item:last-of-type{
+  border-radius: 0px;
+}
+
+.list-group-item.active{
+  background: rgba(12,12,76,.7);
+}
+
+.list-group-item:hover{
+  background: rgba(255,255,255,.7);
+  cursor: pointer;
+}
+
+.card{
+  max-height: calc(100vh - 40px);
+    overflow-y: scroll;
+}
+
+.card img{
+width: 60%;
+margin: 50px auto 20px auto;
+border-radius: 50%;
+}
+
+.card .card-title{
+  color: #333;
+  text-align: center;
+}
+
+.card .card-title span{
+  color: rgba(10, 206, 206, .7);
+}
+
+.card h4{
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.card .btn-primary {
+  background-color: rgba(10, 206, 206, .7);
+  border: none;
+}
+
+.social-network-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-network-wrapper .social-icon{
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.social-network-wrapper .social-icon.facebook{
+  background-image:url("../img/facebook-icon.png");
+}
+
+.social-network-wrapper .social-icon.twitter{
+  background-image:url("../img/twitter-icon.png");
+}
+
+.social-network-wrapper .social-icon.linkedin{
+  background-image:url("../img/linkedin-icon.png");
+}
+
+.social-network-wrapper .social-icon.instagram{
+  background-image:url("../img/instagram-icon.png");
+}
+
+.social-network-wrapper .social-icon.youtube{
+  background-image:url("../img/youtube-icon.svg");
+}
+
+.social-network-wrapper .social-icon:not(:first-of-type){
+  margin-left: 5px;
+}
+*/
